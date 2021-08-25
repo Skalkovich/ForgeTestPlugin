@@ -1,0 +1,33 @@
+﻿namespace Models.Scenarios.ArchitecturalData
+{
+	public enum UnitsEnum {
+		empty,
+		m,
+		m2,
+		m3,
+		cm,
+		cm2,
+		cm3,
+		mm,
+		mm2,
+		mm3,
+		kg,
+		mton,
+		kgm,
+		kg_div_m,
+		pct,
+		nr,
+		kW,
+		ft,
+		ft2,
+		ft3,
+		item,
+		qty,
+		inch,
+		inch2,
+		inch3,
+		lb,
+		iton,
+		uston
+	}
+}

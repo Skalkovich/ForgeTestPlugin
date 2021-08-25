@@ -1,0 +1,32 @@
+{
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "http://localhost:55548",
+      "sslPort": 0
+    }
+  },
+  "profiles": {
+    "IIS Express": {
+      "commandName": "IISExpress",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    },
+    "KreoTestApp": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "environmentVariables": {
+        " ASPNETCORE_ENVIRONMENT": "Development",
+        " FORGE_WEBHOOK_URL": "http:/ca15-31-146-96-144.ngrok.io",
+        " FORGE_CLIENT_ID": " FlwbTnIgVs7AZng73xQwst3hP6axRwCK",
+        " ASPNETCORE_URLS": "http:/localhost:3000",
+        " FORGE_CLIENT_SECRET": "kJFXsThkxv8g5Hgw"
+      },
+      "applicationUrl": "https://localhost:3000",
+      "dotnetRunMessages": "true"
+    }
+  }
+}
